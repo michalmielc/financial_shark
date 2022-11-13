@@ -1,0 +1,61 @@
+I. POCZĄTEK
+
+1. Wpisanie nazwy gracza.
+2. Wybór przeciwników.
+
+II. START
+
+1. Wartość portfela ( gracz i każdy przeciwnik):
+ -  1500$
+ - 1 x FZ, 2 x wyroby oraz 4 surowce.
+
+III. RUNDY
+1. 12 kolejek po 6 rund. Integracja z userem ( przycisk?).
+
+2. Opis rund:
+--------------------------------------------
+a) RUNDA 1.
+    Naliczenie opłat/podatków za majątek:
+    FZ: 1000$ ( fabryka zwykła )
+    FM: 1500$ ( fabryka masowa )
+    surowiec: 300$
+    wyrób: 500$
+--------------------------------------------
+b) RUNDA 2.
+    Losowanie kart podaży. Gracz/oponent deklaruje ilość 
+    ( obowiązuje limit wg karty)oraz cenę.
+    Wybór następuje wg zasady największa cena, ilość.
+    Aż do wyczerpania zapasów.
+--------------------------------------------
+c) RUNDA 3.
+    Gracze produkują wyroby z surowców.
+    Koszt produkcji w FZ: 2000$,  FM: 1500$.
+    W FZ produkujemy tylko 1 szt, a w FM 2 szt.
+--------------------------------------------
+d) RUNDA 4.
+    Rynek skupuje wyroby wg zapotrzebowania 
+    ( karta podaży i popytu). Gracz/oponent deklaruje ilość 
+    ( obowiązuje limit wg karty)oraz cenę.
+    Skup odbywa się wg zasady najniższa cena, ilość, 
+    aż do wyczerpania popytu.
+--------------------------------------------
+e) RUNDA 5.
+    W tej rundzie gracze mogą zaciągnąć kredyt.
+    Wartość kredytu nie może przekraczać wartości przedsiębiorstwa.
+    Wartości: FZ: 4000$, Fm: 6000$, surowiec: 300$, a wyrób 500$.
+    Oprocentowanie wynosi 10% na kolejkę. 
+    Można płacić raty lub wszystko w ostatniej kolejce z odsetkami.
+--------------------------------------------
+f) RUNDA 6.
+    W tej rundzie gracze mogą budować fabryki.
+    Koszt 4000$ FZ, a 6000$ FM,
+    przy czym budowa FZ trwa dwie rundy a masowej trzy rundy.
+    W tej rundzie należy uiścić 2000$ za koszt fabryki i w każdej kolejce
+    czyli np przy budowie FM trzeba uiścić w trzech kolejkach 2000$, ale fabryka\
+    jest gotowa w następnej kolejce w rundzie 4.
+    W przypadku niezapłacenia raty, budowa jest przerwana i pieniądze przepadają.
+--------------------------------------------
+IV. KONIEC GRY
+    Koniec gry następuje po 12 kolejkach. 
+    Kolejność wygranych wg wartości przedsiębiorstwa    
+
