@@ -1,9 +1,12 @@
 
-import {game} from './main_fun.js';
+import {game,Player} from './main_fun.js';
     
 function round2() {
 
             game.increaseRounds(2);
+            Player.showRankingPlayers();
+            Player.showPlayerThings();
+
             //OPIS RUNDY
             const title = "RUNDA 2 - PODAŻ";
             const roundDescription = `Rynek ujawnił aktualną podaż. 

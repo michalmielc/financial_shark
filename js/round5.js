@@ -1,9 +1,12 @@
 
-import {game} from './main_fun.js';
+import {game,Player} from './main_fun.js';
     
 function round5() {
 
     game.increaseRounds(5);
+    Player.showRankingPlayers();
+    Player.showPlayerThings();
+    
     //OPIS RUNDY
     const title = "RUNDA 5 - KREDYT";
     const roundDescription = ` W tej rundzie gracze mogą zaciągnąć kredyt.

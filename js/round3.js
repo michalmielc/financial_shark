@@ -1,9 +1,12 @@
 
-import {game} from './main_fun.js';
+import {game,Player} from './main_fun.js';
     
 function round3() {
 
     game.increaseRounds(3);
+    Player.showRankingPlayers();
+    Player.showPlayerThings();
+    
     //OPIS RUNDY
     const title = "RUNDA 3 - PRODUKCJA";
     const roundDescription = `Gracze produkują wyroby z surowców.

@@ -1,9 +1,12 @@
 
-import {game} from './main_fun.js';
+import {game,Player} from './main_fun.js';
     
 function round6() {
 
     game.increaseRounds(6);
+    Player.showRankingPlayers();
+    Player.showPlayerThings();
+    
     //OPIS RUNDY
     const title = "RUNDA 6 - ROZBUDOWA";
     const roundDescription = `W tej rundzie gracze mogą budować fabryki.

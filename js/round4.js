@@ -1,9 +1,12 @@
 
-import {game} from './main_fun.js';
+import {game,Player} from './main_fun.js';
     
 function round4() {
 
     game.increaseRounds(4);
+    Player.showRankingPlayers();
+    Player.showPlayerThings();
+    
     //OPIS RUNDY
     const title = "RUNDA 4 - POPYT";
     const roundDescription = `Rynek skupuje wyroby wg zapotrzebowania 
