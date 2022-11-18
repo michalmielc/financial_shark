@@ -264,7 +264,6 @@ const Player = {
 export {game, Player};
 
 
-
     //PROTOTYP///////////////////
     // setPlayerField(index,value) {
     //     const players = JSON.parse(localStorage.getItem("players"));
