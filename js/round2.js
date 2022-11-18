@@ -7,6 +7,9 @@ function round2() {
             Player.showRankingPlayers();
             Player.showPlayerThings();
 
+            const players = Player.getPlayers();
+            console.log(players);
+
             //OPIS RUNDY
             const title = "RUNDA 2 - PODAŻ";
             const roundDescription = `Rynek ujawnił aktualną podaż. 

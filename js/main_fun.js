@@ -5,6 +5,7 @@ const game = {
 
     // ZMIENNE ZAPISYWANE W PAMIĘCI 
     //LICZNIK KOLEJEK I RUND
+    
     setLapAndRound() {
         localStorage.clear();
         localStorage.setItem("lapCounter",0);
