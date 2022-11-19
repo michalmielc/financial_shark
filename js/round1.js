@@ -24,11 +24,10 @@ function round1() {
             location.href = "round2.html"; })
             btn.style.visibility="hidden";
              
-            //AKTYWACJA PRZYCISKU
+            //AKCJA
             const btnDiv = document.getElementById('action');
             const div = document.createElement('div');
             const player = taxAndChargingPlayerCalc();
-            console.log(player);
             div.innerText = 
             `Twój majątek łącznie: ${player[0].goodwillTotal}
             Portfel: ${player[0].money}
@@ -61,7 +60,6 @@ function round1() {
 function taxAndChargingPlayers(){
     const players = Player.getPlayers();
             players.forEach (el=> {
-                console.log(el.money);
                 el.money= el.money - (el.smallFactory*1000 + el.massFactory*1500 +
                  el.material*300 + el.product*500);
              } );
