@@ -242,20 +242,44 @@ const Player = {
         summary_ul.appendChild(li_item)})
      },
 
-    //DANE GRACZA 
+    //POKAŻ DANE GRACZA 
     showPlayerThings(){
         const playerInfo = document.querySelector("#player_box");
          //USUNIĘCIE POPRZEDNICH STATYSTYK
         playerInfo.querySelectorAll('*').forEach(n => n.remove());
         const players = this.getPlayers();
-        playerInfo.innerText = 
-            'money:' +  players[0].money + ' ' +
-            'smallFactories:' +   players[0].smallFactory + ' ' +
-            'massFactories:' +  players[0].massFactory + ' ' +
-            'products:' +  players[0].product + ' ' +
-            'materials:' +  players[0].material + ' ' +
-            'creditLeft:' +  players[0].creditLeft;    
+        let player;
         
+        players.forEach(el=>{
+            if(el.isPlayer==1)
+            {
+                player=el;
+            }
+        })
+
+        playerInfo.innerText = 
+            'money:' +  player.money + ' ' +
+            'smallFactories:' +   player.smallFactory + ' ' +
+            'massFactories:' +  player.massFactory + ' ' +
+            'products:' +  player.product + ' ' +
+            'materials:' +  player.material + ' ' +
+            'creditLeft:' +  player.creditLeft;  
+
+    },
+
+    //POBIERZ DANE GRACZA
+    getPlayerThings(){
+        const players = this.getPlayers();
+        let player;
+        
+        players.forEach(el=>{
+            if(el.isPlayer==1)
+            {
+                player=el;
+            }
+        })
+        
+        return player;
     }
 }
 

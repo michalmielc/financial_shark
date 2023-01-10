@@ -48,7 +48,8 @@ function round1() {
             //ODŚWIEŻENIE PODSUMOWAŃ    
             Player.showRankingPlayers();
             Player.showPlayerThings();
-           //UKRYCIE PRZYCISKÓW I KOMUNIKATÓW
+           
+            //UKRYCIE PRZYCISKÓW I KOMUNIKATÓW
             btn.style.visibility="visible";            
             btnTax.remove();
             div.remove();
